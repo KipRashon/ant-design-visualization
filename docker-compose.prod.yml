@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: ant-design-visualization-prod
+    image: ant-design-visualization-prod
+    build:
+      context: .
+      target: production

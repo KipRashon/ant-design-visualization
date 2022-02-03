@@ -1,0 +1,127 @@
+[
+  {
+    "year": "2010",
+    "value": 3107,
+    "category": "Cars"
+  },
+  {
+    "year": "2010",
+    "value": 3812,
+    "category": "Buses"
+  },
+  {
+    "year": "2010",
+    "value": 1696,
+    "category": "Bikes"
+  },
+  {
+    "year": "2010",
+    "value": 446,
+    "category": "train"
+  },
+  {
+    "year": "2010",
+    "value": 67,
+    "category": "Walk"
+  },
+  {
+    "year": "2011",
+    "value": 3134,
+    "category": "Cars"
+  },
+  {
+    "year": "2011",
+    "value": 4055,
+    "category": "Buses"
+  },
+  {
+    "year": "2011",
+    "value": 1756,
+    "category": "Bikes"
+  },
+  {
+    "year": "2011",
+    "value": 494,
+    "category": "train"
+  },
+  {
+    "year": "2011",
+    "value": 64,
+    "category": "Walk"
+  },
+  {
+    "year": "2012",
+    "value": 3200,
+    "category": "Cars"
+  },
+  {
+    "year": "2012",
+    "value": 4106,
+    "category": "Buses"
+  },
+  {
+    "year": "2012",
+    "value": 1783,
+    "category": "Bikes"
+  },
+  {
+    "year": "2012",
+    "value": 519,
+    "category": "train"
+  },
+  {
+    "year": "2012",
+    "value": 65,
+    "category": "Walk"
+  },
+  {
+    "year": "2013",
+    "value": 3220,
+    "category": "Cars"
+  },
+  {
+    "year": "2013",
+    "value": 4126,
+    "category": "Buses"
+  },
+  {
+    "year": "2013",
+    "value": 1806,
+    "category": "Bikes"
+  },
+  {
+    "year": "2013",
+    "value": 554,
+    "category": "train"
+  },
+  {
+    "year": "2013",
+    "value": 68,
+    "category": "Walk"
+  },
+  {
+    "year": "2014",
+    "value": 3280,
+    "category": "Cars"
+  },
+  {
+    "year": "2014",
+    "value": 4117,
+    "category": "Buses"
+  },
+  {
+    "year": "2014",
+    "value": 1823,
+    "category": "Bikes"
+  },
+  {
+    "year": "2014",
+    "value": 568,
+    "category": "train"
+  },
+  {
+    "year": "2014",
+    "value": 68,
+    "category": "Walk"
+  }
+]

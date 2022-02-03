@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: ant-design-visualization
+    image: ant-design-visualization
+    build:
+      context: .
+      target: development
+
+    volumes:
+      - ./src:/app/src
+
+    ports:
+      - ${APP_PORT}:3000
