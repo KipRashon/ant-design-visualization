@@ -1,23 +1,21 @@
+#Stage 1
 FROM node:14-alpine AS builder
-ENV NODE_ENV production
 
-#Add work directory
-WORKDIR /app 
+RUN mkdir /usr/app
 
-COPY package.json .
-COPY package-lock.json .
-RUN npm install --production
+COPY . /usr/app 
 
-#Copy app files
-COPY . .
+WORKDIR /usr/app 
 
-RUN npm run build 
+RUN npm install
 
-FROM nginx:alpine as production
-ENV NODE_ENV production 
-COPY --from=builder /app/build /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+ENV PATH /usr/src/app/node_modules/.bin:$PATH 
 
-EXPOSE 80
+RUN npm run build
 
-CMD ["nginx","-g","daemon off;"]
+#Stage 2
+FROM  nginx:alpine
+
+COPY --from=builder /usr/app/build .
+
+ENTRYPOINT [ "nginx","-g","daemon off;" ]
